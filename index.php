@@ -1,5 +1,4 @@
 <?php 
 
-test
-
+	print "Hello World" ;
 ?>
