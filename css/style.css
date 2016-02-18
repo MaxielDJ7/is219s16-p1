@@ -2,3 +2,97 @@
   text-align: center;
 
 }
+body{
+  background-color: #721B1B;
+
+}
+
+.container{
+  background-color: #ADABAB;
+  margin: 25px 25px;
+  background:rgba(173,171,171,0.5);
+}
+
+a{
+  padding:0% 5%;
+  font-family: 'Oxygen', sans-serif;
+  font-weight:700;
+  color: #ffffff;
+
+}
+
+
+nav{
+  padding:20px 0px;
+
+
+}
+
+img{
+
+  width: 250px;
+  height: 250px;
+  display: inline;
+}
+
+.circle-photo{
+
+
+  padding: 50px 0px 50px 0px;
+}
+
+h3{
+  font-family: 'Oxygen', sans-serif;
+  font-weight:300;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+#projects h3{
+  font-size: 30px;
+  font-weight: 300;
+}
+
+#projects img{
+
+  width: 10%;
+  height:10%;
+}
+
+#resume h3{
+  font-size: 30px;
+  font-weight: 300;
+}
+
+#contact h3{
+  font-size: 30px;
+  font-weight: 300;
+}
+
+
+
+h4{
+  font-family: 'Oxygen', sans-serif;
+  font-weight:300;
+  color: #ffffff;
+}
+
+h6{
+  font-family: 'Oxygen', sans-serif;
+  font-weight:300;
+  color: #ffffff;
+
+}
+
+
+p{
+  font-family: 'Oxygen', sans-serif;
+  font-weight:300;
+  display: inline-block;
+  max-width: 600px;
+  color: #ffffff;
+}
+
+#about-me p{
+  font-size: 20px;
+}
