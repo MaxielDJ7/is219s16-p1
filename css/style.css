@@ -2,12 +2,13 @@
   text-align: center;
 
 }
+
 body{
   background-color: #721B1B;
 
 }
 
-.container{
+.container-fluid{
   background-color: #ADABAB;
   margin: 25px 25px;
   background:rgba(173,171,171,0.5);
@@ -48,17 +49,20 @@ h3{
   color: #ffffff;
 }
 
-
+#about-me p{
+  font-size: 20px;
+}
 
 #projects h3{
   font-size: 30px;
   font-weight: 300;
+  margin:50px 0px 25px 0px;
 }
 
 .projects img{
 
-  width: 15%;
-  height:15%;
+  width: 10%;
+  height:10%;
 
   margin: 50px 15px 0px 60px;
 }
@@ -100,9 +104,7 @@ h6{
   color: #ffffff;
 
 }
-
-
-p{
+ p{
   font-family: 'Oxygen', sans-serif;
   font-weight:300;
   display: inline-block;
@@ -110,6 +112,19 @@ p{
   color: #ffffff;
 }
 
-#about-me p{
-  font-size: 20px;
-}
+/* xs screen size media query*/
+
+@media screen and (max-width:600px) {
+
+  #about-me p{
+    font-size: 15px;
+  }
+
+  h3{
+    font-family: 'Oxygen', sans-serif;
+    font-weight:300;
+    font-size: 45px;
+    color: #ffffff;
+  }
+
+  };
