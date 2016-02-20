@@ -1,3 +1,237 @@
-<?php
+<!DOCTYPE html>
 
-?>
+<html>
+
+	<head>
+
+		<link href='css/bootstrap.css' rel= 'stylesheet'>
+    <link href='css/style.css' rel= 'stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+
+		<nav class='row row-centered'>
+
+			<div class=" col-md-12 col-centered">
+
+				<a href="#about-me"> About </a>
+				<a href="#projects"> Projects </a>
+				<a href="#resume"> Resume </a>
+				<a href="#contact"> Contact </a>
+
+			</div>
+
+		</nav>
+
+	</head>
+
+
+
+	<body>
+
+		<div class="container-fluid">
+
+
+				<!-- START PICTURE -->
+
+							<div class= 'row row-centered'>
+
+								<div class='col-md-12 col-centered circle-photo'>
+
+									<img src="images/circle-self.png"  />
+
+
+								</div> <!--END PICTURE -->
+
+				      </div> <!--END ROW 1 -->
+
+				<!-- END PICTURE -->
+
+				<!-- START ABOUT ME -->
+
+				      <div class= 'row row-centered'>
+
+				        <div class='col-md-12 col-centered'>
+
+				            <div id='about-me'>
+
+
+				              <h3> Hi, I'm Maxie</h3>
+
+
+				              <p>
+				                An eager to learn scholar, pursuing a Bachelor's degree in
+				              Information Technology with a minor in Web and Information Systems, that has the passion for seeing through projects and aspires to be a Product Manager.</p>
+				            </p>
+				              <h4> Get to know me! </h4>
+
+
+				            </div> <!--END ABOUT ME -->
+
+				        </div>
+
+				      </div><!--END ROW 2 -->
+
+				<!-- END ABOUT ME -->
+
+				<!-- START PROJECTS -->
+					<div class="projects">
+				      <div class= 'row row-centered'>
+
+				        <div class='col-md-12 col-centered'>
+
+				            <div id='projects'>
+
+				                <h3>PROJECTS</h3>
+
+				                <p> Take a peek at the most current projects I'm working on </p>
+											</div> <!--END PROJECTS -->
+
+									</div>
+
+								</div><!--END TITLE ROW -->
+
+
+
+										<div class="row">
+
+											<div class= "col-md-6 col-md-offset-3 col-xs-12 project-section"> <!-- START OF CENTER PROJECT ROW-->
+
+												<div class="row"> <!--NESTED CENTER ROW TO SPILT IN TWO-->
+
+				                <div class= "col-md-6 col-xs-12 sectional">
+
+												 <div class="row row-centered">
+
+														<img src="images/oc.png"/>
+
+													</div>
+
+														<div class="projects-info pull-left">
+						                    <h4> O.C. </h4>
+
+
+						                    <p> Objective: Create an ecommerce website and
+						                        intergrate it with a seperate shipping system created
+						                      by my peers</p>
+						                    <p> Role: Frontend and Middle tier developer</p>
+						                    <p> Software & Languages: HTML, CSS, JS, PHP, MySQL,
+						                      GitHub, phpMyAdmin</p>
+													  </div>
+				                </div>
+
+
+
+
+				                <div class= "col-md-6 col-xs-12 col-centered sectional">
+
+													 <div class="row row-centered">
+
+														<img src="images/munch.png" />
+
+													</div>
+
+														<div class="projects-info pull-left">
+
+					                    <h4> MUNCH </h4>
+
+					                    <p> Objective: Design an original web or mobile application
+					                    using UI/UX and SEO techniques</p>
+						                  <p> Role: Frontend developer</p>
+						                  <p> Software & Languages: HTML, CSS, JS, GitHub</p>
+
+													</div>
+
+				                </div>
+											</div><!--NESTED CENTER ROW TO SPILT IN TWO-->
+											</div> <!-- END OF CENTER PROJECT ROW-->
+										</div>
+
+					</div> 
+				<!-- END PROJECTS -->
+
+				<!-- START RESUME -->
+
+				      <div class= 'row' class="resume">
+
+								<div class= "col-md-6 col-md-offset-3 col-xs-12 "> <!-- START OF CENTER RESUME ROW-->
+									<div class= 'row row-centered'>
+
+									<div class= ' col-md-12 col-centered'>
+
+
+											<h3> RESUME </h3>
+
+									</div>
+
+								</div>
+
+									<div class="row"> <!--NESTED CENTER ROW TO SPILT IN TWO-->
+
+
+
+										<div class= "row">
+
+											<div class= 'col-md-6'>
+												<div class="resume-info pull-left">
+														<h4> Apple </h4>
+														<p>Wayne, New Jersey </p>
+														<p> Sales Specialist </p>
+														<p> august 2014 - present </p>
+
+														<p>I help the skeptical, curious, and enthusiast; families, business owners, technically experienced, as well as the novice dreamers, find solutions to their technical needs.</p>
+													</div>
+											</div>
+											<div class= 'col-md-6'>
+
+												<div class="resume-info pull-left">
+
+													<h4> ADP </h4>
+													<p>Roseland, New Jersey </p>
+													<p> Technical Project Manager </p>
+													<p> june 2015 - august 2015 </p>
+
+													<p>	As a technical project manager I exercised my prior technical knowledge of computer security systems, network security, hardware appliances, as well as software, to understand the project at hand and provide appropriate feedback to meet deliverables.</p>
+												</div>
+											</div>
+
+											<div class= "row row-centered">
+												<a href="#">View Full Resume</a>
+											</div>
+
+										</div><!--END ROW OF RESUMES EXPERIENCE-->
+
+										</div>
+
+								</div>
+							</div>
+
+				<!-- END RESUME -->
+
+				<!-- START CONTACT -->
+
+				      <div class= 'row row-centered'>
+
+				        <div class= ' col-md-12 col-centered'>
+
+				  					<div id='contact'>
+
+				  						<h3> CONTACT </h3>
+
+											<a href="https://www.linkedin.com/in/maxiel-de-jesus-690142bb"><img src="images/in.png"></a>
+
+
+				  					</div><!--END CONTACT -->
+
+				        </div>
+
+				      </div><!--END ROW 6 -->
+
+				<!-- END CONTACT -->
+
+
+		</div> <!--END CONTAINER -->
+
+
+	</body>
+
+
+</html>
